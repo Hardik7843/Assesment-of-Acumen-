@@ -18,8 +18,9 @@ class Car(Vehicle):
 
     def start_engine(self):
         print(self.name)
+        super().start_engine()
         print("Car Engine started")
         
 c1 = Car("C1" , "Maruti Suzuki")
-c1.car_details()
-# c1.start_engine()
+# c1.car_details()
+c1.start_engine()
