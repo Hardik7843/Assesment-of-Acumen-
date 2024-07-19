@@ -1,7 +1,7 @@
 # Update : Please Find the JWT Authentication task submission below. 
-JWT Task [here](Readme#jwt-authentication-token)
+JWT Task [here](https://github.com/Hardik7843/Assesment-of-Acumen-/blob/master/FinalTask/APITask/README.md#jwt-authentication-token)
 
-Working of JWT Token explained [Here](Readme#how-jwt-authentication-works)
+Working of JWT Token explained [Here](https://github.com/Hardik7843/Assesment-of-Acumen-/blob/master/FinalTask/APITask/README.md#how-jwt-authentication-works)
 
 
 # API Task Details.
