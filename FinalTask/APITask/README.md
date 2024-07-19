@@ -1,7 +1,10 @@
+# Update : Please Find the JWT Authentication task submission below. 
+JWT Task [here](Readme#jwt-authentication-token)
+
+Working of JWT Token explained [Here](Readme#how-jwt-authentication-works)
+
+
 # API Task Details.
-
-
-
 The Django Server can be run using 
 
 `python manage.py runserver`
@@ -56,7 +59,38 @@ lastly `com` sequence.
 ## ER - Diagram of Database.
 ![alt text](image-4.png)
 
-## To do 
-1. JWT authentication.
+
+# JWT Authentication token
+## 1. Signup
+### Creating User with Following username and password
+![alt text](image-5.png)
+
+### after the creation. we get his username,password and uniqeid.
+![alt text](image-6.png)
+
+## 2. Request for Login
+### Sending the request for login, with user's credentials.
+![alt text](image-8.png)
+
+### The Response of Login request. The password will be encrypted here. the auth token will be provided.
+![alt text](image-11.png)
+
+### The server will also handle the request with wrong credentials.
+![alt text](image-9.png)
+
+### 3. Let's use the token given by response to login_req's in doing the actual login. 
+![alt text](image-7.png)
+![alt text](image-10.png)
+
+### What if the token was fake
+![alt text](image-12.png)
+
+
+## How JWT Authentication works 
+![alt text](image-14.png)
+
+## Registration of user
+![alt text](image-13.png)
+<!-- ## To do 
 2. Adding Company table with unique constraint.
-3. Foreign Key and Primary Key for Employee and Company.
+3. Foreign Key and Primary Key for Employee and Company. -->
